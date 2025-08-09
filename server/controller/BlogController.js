@@ -31,7 +31,7 @@ if(!title||!body||!imag||!userid){
     date : new Date()      
 }).then((data)=>{
 return res.json({
-    msg:"blog created successfully",
+    msg:"blog created successfully 👍",
     state:1,
     data:data    
 })
